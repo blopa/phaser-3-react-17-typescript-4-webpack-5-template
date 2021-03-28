@@ -19,6 +19,11 @@ module.exports = async (env = {}) => {
         module: {
             rules: [
                 {
+                    test: /\.tsx?$/,
+                    use: 'ts-loader',
+                    exclude: /node_modules/,
+                },
+                {
                     test: /\.css$/,
                     use: [
                         MiniCssExtractPlugin.loader,
@@ -31,7 +36,7 @@ module.exports = async (env = {}) => {
             extensions: ['.ts', '.tsx', '.js'],
         },
         output: {
-            filename: ' [name].app.bundle.js',
+            filename: '[name].app.bundle.js',
             path: path.resolve(__dirname, 'dist', 'build'),
         },
         mode: isProduction ? 'production' : 'development',

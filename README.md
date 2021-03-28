@@ -1,4 +1,4 @@
-# Phaser 3 + TypeScript 4 + Webpack 5 + ESLint Starter Kit
+# Phaser 3 + TypeScript 4 + React 17 + Webpack 5 + ESLint Starter Kit
 
 This repository contains all the code necessary to start making a game in Phaser 3 using TypeScript 4 and Webpack 5.
 

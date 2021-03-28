@@ -1,3 +1,4 @@
+import * as Phaser from 'phaser';
 import { getGameWidth, getGameHeight } from '../helpers';
 
 const sceneConfig: Phaser.Types.Scenes.SettingsConfig = {
@@ -6,7 +7,7 @@ const sceneConfig: Phaser.Types.Scenes.SettingsConfig = {
     key: 'Game',
 };
 
-export class GameScene extends Phaser.Scene {
+export default class GameScene extends Phaser.Scene {
     public speed = 200;
 
     private cursorKeys: Phaser.Types.Input.Keyboard.CursorKeys;
