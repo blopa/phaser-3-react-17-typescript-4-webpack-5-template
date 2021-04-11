@@ -153,7 +153,8 @@ module.exports = {
                 properties: 'never',
             },
         ],
-        'comma-dangle': [
+        'comma-dangle': 'off',
+        '@typescript-eslint/comma-dangle': [
             'warn',
             {
                 arrays: 'always-multiline',
