@@ -2,7 +2,7 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import * as Phaser from 'phaser';
 import Scenes from './scenes';
-import App from './ui/App';
+import MasterUI from './ui/MasterUI';
 
 const gameConfig: Phaser.Types.Core.GameConfig = {
     title: 'Sample',
@@ -28,4 +28,4 @@ window.addEventListener('resize', () => {
     game.scale.refresh();
 });
 
-ReactDOM.render(<App />, document.getElementById('react-content'));
+ReactDOM.render(<MasterUI />, document.getElementById('react-content'));
