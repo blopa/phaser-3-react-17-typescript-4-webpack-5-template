@@ -1,7 +1,11 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import * as Phaser from 'phaser';
-import Scenes from './scenes';
+
+// Scenes
+import scenes from './scenes';
+
+// Components
 import MasterUI from './ui/MasterUI';
 
 const gameConfig: Phaser.Types.Core.GameConfig = {
@@ -12,7 +16,7 @@ const gameConfig: Phaser.Types.Core.GameConfig = {
         width: window.innerWidth,
         height: window.innerHeight,
     },
-    scene: Scenes,
+    scene: scenes,
     physics: {
         default: 'arcade',
         arcade: {

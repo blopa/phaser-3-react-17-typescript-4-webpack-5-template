@@ -186,7 +186,7 @@ module.exports = {
         'jsx-quotes': 'warn',
         'key-spacing': 'warn',
         'keyword-spacing': 'warn',
-        'linebreak-style': 'warn',
+        'linebreak-style': ['warn', 'windows'],
         'lines-between-class-members': 'warn',
         'max-len': [
             'warn',

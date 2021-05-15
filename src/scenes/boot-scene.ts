@@ -27,7 +27,7 @@ export default class BootScene extends Phaser.Scene {
             halfHeight,
             progressBarWidth,
             progressBarHeight,
-            0x000000,
+            0x000000
         );
         const progressBar = this.add.rectangle(
             halfWidth + 20 - progressBarContainer.width * 0.5,
