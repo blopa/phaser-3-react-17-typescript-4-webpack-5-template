@@ -1,6 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import * as Phaser from 'phaser';
+import Phaser from 'phaser';
 
 // Scenes
 import scenes from './scenes';

@@ -10,6 +10,7 @@
     "include": [
         ".eslintrc.js",
         "webpack.config.js",
+        "server.js",
         "./src/*.tsx",
         "./src/**/*.ts",
         "./src/**/*.tsx"
